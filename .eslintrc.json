@@ -1,0 +1,13 @@
+{
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "__PATH_PREFIX__": false,
+    "___emitter": false
+  },
+  "rules": {
+    "import/first": 0,
+    "import/order": 0
+  }
+}
