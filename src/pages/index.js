@@ -21,7 +21,7 @@ const HomeOne = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Home One">
+        <Layout PageTitle="KAIZN UV LIGHTING Home">
           <HeaderOne />
           <SliderOne />
           <ServiceTwo />

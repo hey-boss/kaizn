@@ -177,7 +177,7 @@ License URI:
 }
 .navigator a.active,
 .navigator a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .black_color {
   border-color: #e5e5e5;
@@ -196,7 +196,7 @@ License URI:
 }
 .black_color .navigator a.active,
 .black_color .navigator a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .fixedHeader {
   background: #000;
@@ -388,7 +388,7 @@ License URI:
   transform: rotateX(180deg);
 }
 .back {
-  background: #e62b4a;
+  background: #FBD52A;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   -o-transform: rotateY(-180deg);
@@ -396,7 +396,7 @@ License URI:
   transform: rotateY(-180deg);
   position: relative;
   padding: 48px 45px 45px;
-  border: 2px solid #e62b4a;
+  border: 2px solid #FBD52A;
   width: 100%;
 }
 .icon_box_1:hover .front,
@@ -458,7 +458,7 @@ License URI:
   top: -40px;
   left: 40px;
   content: "";
-  border: 10px solid #e62b4a;
+  border: 10px solid #FBD52A;
   width: 470px;
   height: 458px;
 }
@@ -510,7 +510,7 @@ License URI:
   height: 115px;
   border-radius: 0;
   position: relative;
-  background: #e62b4a;
+  background: #FBD52A;
   color: #fff;
   font-size: 30px;
   line-height: 0.8;
@@ -598,7 +598,7 @@ License URI:
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(230, 43, 74, 0.8);
+  background: #FBD52A;
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -907,7 +907,7 @@ License URI:
   transition: all 0.4s ease-out;
 }
 .singleTM:hover .detail_TM h5 {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .singleTM:hover .detail_TM h6:after {
   width: 100%;
@@ -1010,7 +1010,7 @@ License URI:
   bottom: 0;
   margin: auto 0;
   content: "";
-  background: #e62b4a;
+  background: #FBD52A;
   visibility: hidden;
   opacity: 0;
   transition: all ease 500ms;
@@ -1086,7 +1086,7 @@ License URI:
   bottom: 0;
   margin: auto 0;
   content: "";
-  background: #e62b4a;
+  background: #FBD52A;
   visibility: hidden;
   opacity: 0;
   transition: all ease 500ms;
@@ -1131,7 +1131,7 @@ License URI:
 .testimonial_content .testi_icon {
   width: 115px;
   height: 115px;
-  background: #e62b4a;
+  background: #FBD52A;
   text-align: center;
   display: inline-block;
   font-size: 64px;
@@ -1149,7 +1149,7 @@ License URI:
   margin: 0 0 44px;
 }
 .testimonial_content h2 span {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .testimonial_content p {
   font-size: 20px;
@@ -1204,7 +1204,7 @@ License URI:
 }
 .lbi_details .lbid_date:hover {
   color: #fff;
-  background: #e62b4a;
+  background: #FBD52A;
 }
 .lbi_details h2 {
   font-size: 26px;
@@ -1218,7 +1218,7 @@ License URI:
   color: #000;
 }
 .lbi_details h2 a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .lbi_details .learnM {
   display: inline-block;
@@ -1233,7 +1233,7 @@ License URI:
   width: 0;
   height: 1px;
   content: "";
-  background: #e62b4a;
+  background: #FBD52A;
   position: absolute;
   left: 0;
   right: 0;
@@ -1246,7 +1246,7 @@ License URI:
   width: 100%;
 }
 .lbi_details .learnM:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 
 /*----------------------------------------------------
@@ -1324,7 +1324,7 @@ License URI:
 }
 .footer_1 .copyright a:hover,
 .footer_1 .contact_widgets p a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .footer_1 .contact_widgets p:first-of-type {
   margin-bottom: 32px;
@@ -1389,7 +1389,7 @@ License URI:
   bottom: 0;
   margin: auto 0;
   content: "";
-  background: #e62b4a;
+  background: #FBD52A;
   visibility: hidden;
   opacity: 0;
   z-index: 3;
@@ -1441,7 +1441,7 @@ License URI:
   margin: 0;
 }
 .icon_box_2 a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .icon_box_2:hover {
   -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
@@ -1512,7 +1512,7 @@ License URI:
   position: relative;
 }
 .img_details {
-  background: #e62b4a;
+  background: #FBD52A;
   display: inline-block;
   padding: 43px 103px 45px 50px;
   position: absolute;
@@ -1581,7 +1581,7 @@ License URI:
   right: 0;
   bottom: 0;
   content: "“";
-  background: #e62b4a;
+  background: #FBD52A;
   font-size: 30px;
   line-height: 0.8;
   padding: 11px 0;
@@ -1725,7 +1725,7 @@ License URI:
 }
 .wh_choose ul li i {
   font-size: 14px;
-  color: #e62b4a;
+  color: #FBD52A;
   line-height: 32px;
   margin-right: 15px;
 }
@@ -1834,7 +1834,7 @@ License URI:
   font-size: 24px;
   color: #fff;
   letter-spacing: 0.96px;
-  background: #e62b4a;
+  background: #FBD52A;
   padding: 61px 0;
 }
 .btn_link a:hover {
@@ -1845,7 +1845,7 @@ License URI:
   background: #000;
 }
 .btn_link.bg_black a:hover {
-  background: #e62b4a;
+  background: #FBD52A;
 }
 
 /*----------------------------------------------------
@@ -1892,7 +1892,7 @@ License URI:
   position: absolute;
   right: 60px;
   top: 60px;
-  border: 10px solid #e62b4a;
+  border: 10px solid #FBD52A;
   height: 464px;
   width: 530px;
   content: "";
@@ -2019,7 +2019,7 @@ License URI:
   font-size: 16px;
 }
 .serviceArea ul li i {
-  color: #e62b4a;
+  color: #FBD52A;
   margin-right: 10px;
   line-height: 36px;
 }
@@ -2150,7 +2150,7 @@ License URI:
   top: -1px;
 }
 .nextprevPagination a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .singlePortfoio_content {
   position: relative;
@@ -2181,7 +2181,7 @@ License URI:
   color: #818181;
 }
 .singlePortfoio_content p a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .singlePortfoio_content ul {
   margin: 17px 0 0;
@@ -2206,7 +2206,7 @@ License URI:
   width: 0;
   height: 1px;
   content: "";
-  background: #e62b4a;
+  background: #FBD52A;
   position: absolute;
   left: 0;
   right: 0;
@@ -2216,7 +2216,7 @@ License URI:
   transition: all 0.4s ease-out;
 }
 .singlePortfoio_content ul li a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .singlePortfoio_content ul li a:hover:after {
   width: 100%;
@@ -2261,7 +2261,7 @@ License URI:
   bottom: 0;
   margin: auto 0;
   content: "";
-  background: #e62b4a;
+  background: #FBD52A;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.4s ease-out;
@@ -2308,7 +2308,7 @@ License URI:
   display: block;
   height: 31px;
   width: 65px;
-  background: #e62b4a;
+  background: #FBD52A;
   color: #ffffff;
   padding: 11px 0;
   text-align: center;
@@ -2340,7 +2340,7 @@ License URI:
   margin-left: 0;
 }
 .blog_headings .blog_metas a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .blog_details {
   padding: 0px 40px 22px;
@@ -2397,14 +2397,14 @@ License URI:
   color: #000;
 }
 .post_author h3 a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .post_author p {
   line-height: 30px;
   margin: 0 0 16px;
 }
 .post_author > a {
-  color: #e62b4a;
+  color: #FBD52A;
   line-height: 0.8;
   display: inline-block;
   position: relative;
@@ -2416,7 +2416,7 @@ License URI:
   width: 100%;
   height: 1px;
   content: "";
-  background: #e62b4a;
+  background: #FBD52A;
   position: absolute;
   left: 0;
   right: 0;
@@ -2481,13 +2481,13 @@ License URI:
   color: #000;
 }
 .single-comment .authorDetails h5 a:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .single-comment .authorDetails span {
   display: block;
   font-size: 12px;
   line-height: 30px;
-  color: #e62b4a;
+  color: #FBD52A;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   margin: 0 0 27px;
@@ -2538,7 +2538,7 @@ License URI:
   transition: all 0.3s ease-out;
 }
 .input-form.reqError {
-  border: 1px solid #e62b4a;
+  border: 1px solid #FBD52A;
 }
 textarea.input-form {
   height: 190px;
@@ -2573,7 +2573,7 @@ textarea.input-form:focus {
   -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
-  border-right: 4px solid #e62b4a;
+  border-right: 4px solid #FBD52A;
   background: #fff;
 }
 .sidebar .widget {
@@ -2765,7 +2765,7 @@ textarea.input-form:focus {
   -moz-transition: all ease 400ms;
 }
 .searchForms button[type="submit"]:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 .searchForms input {
   width: 100%;
@@ -2853,7 +2853,7 @@ textarea.input-form:focus {
 }
 .sfCloser:hover:after,
 .sfCloser:hover:before {
-  background: #e62b4a;
+  background: #FBD52A;
 }
 
 /*------------------------------------------------------------------------------
@@ -2937,7 +2937,7 @@ textarea.input-form:focus {
 }
 .close-popup:hover:after,
 .close-popup:hover:before {
-  background: #e62b4a;
+  background: #FBD52A;
 }
 .logo2 {
   z-index: 99;
@@ -3432,7 +3432,7 @@ textarea.input-form:focus {
 / 29. Bact To Top
 ------------------------------------------------------*/
 .showit {
-  background: #e62b4a;
+  background: #FBD52A;
   bottom: 60px;
   color: #ffffff;
   font-size: 20px;
@@ -3512,7 +3512,7 @@ textarea.input-form:focus {
 }
 .color_settings .switch-btn.active,
 .color_settings .switch-btn:hover {
-  color: #e62b4a;
+  color: #FBD52A;
 }
 
 /* main slider in react js */

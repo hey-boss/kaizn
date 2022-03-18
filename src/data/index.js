@@ -1,4 +1,4 @@
-import logoLight from "@/images/logo.png";
+import logoLight from "@/images/kaizn-logo.svg";
 import logoDark from "@/images/logo2.png";
 
 export const LogoImage = {
@@ -85,14 +85,14 @@ export const NavLinks = [
   },
 ];
 
-import sliderOne01 from "@/images/slider/1_1.jpg";
-import sliderOne02 from "@/images/slider/1_2.jpg";
+import sliderOne01 from "@/images/slider/purple-city.jpg";
+import sliderOne02 from "@/images/slider/worker-with-tablet.jpg";
 
 export const SliderOneData = [
   {
     image: sliderOne01,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    subTitle: "WELCOME TO KAIZN UV LIGHTING",
+    title: "We Light Up \n With Safety.",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
@@ -100,8 +100,8 @@ export const SliderOneData = [
   },
   {
     image: sliderOne02,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    subTitle: "WELCOME TO KAIZN UV LIGHTING",
+    title: "We Light Up \n With Safety.",
     button: {
       label: "DISCOVER MORE",
       url: "/about",
@@ -515,34 +515,34 @@ export const ServiceHomeThreeData = {
 
 export const ServicePostTwoData = {
   sectionContent: {
-    title: "We design digital products that \n help grow businesses.",
+    title: "We have the products to shine a light  \n on all of life’s most important moments.",
     subTitle: "Services we are offering",
     text:
       "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
   },
   posts: [
     {
-      title: "Website Development",
+      title: "surface disinfection",
       iconName: "mei-web-design",
       url: "/service-details",
     },
     {
-      title: "Graphic Designing",
-      iconName: "mei-computer-graphic",
-      url: "/service-details",
-    },
-    {
-      title: "Digital Marketing",
+      title: "clean high-touch spaces",
       iconName: "mei-development-1",
       url: "/service-details",
     },
     {
-      title: "SEo & Content Writing",
+      title: "clean entrances",
       iconName: "mei-development",
       url: "/service-details",
     },
     {
-      title: "App Development",
+      title: "Enclosed Place Air Sanitization",
+      iconName: "mei-computer-graphic",
+      url: "/service-details",
+    },
+    {
+      title: "Sanitization for Big Space",
       iconName: "mei-app-development",
       url: "/service-details",
     },
@@ -1011,8 +1011,8 @@ export const VideoTwoData = {
   // },
 };
 
-import aboutTwo01 from "@/images/home_1/2.jpg";
-import aboutTwo02 from "@/images/home_1/1.jpg";
+import aboutTwo01 from "@/images/home_1/purple-bg.png";
+import aboutTwo02 from "@/images/home_1/young-attractive.jpg";
 
 export const AboutTwoData = {
   sectionContent: {
