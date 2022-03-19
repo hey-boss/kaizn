@@ -26,15 +26,11 @@ const HomeOne = () => {
           <SliderOne />
           <ServiceTwo />
           <AboutTwo />
-          <SubscribeForm />
           <PortfolioHome />
           <FunfactOne />
           <TrustedClient />
-          <TeamCarousel />
           <ClientCarouselOne />
-          <ParallaxOne />
-          <BlogHome />
-          <CallToActionOne extraClassName="ready" />
+          <CallToActionOne extraClassName="ready"/>
           <Footer />
         </Layout>
       </SearchContextProvider>

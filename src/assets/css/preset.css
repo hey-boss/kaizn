@@ -159,10 +159,10 @@ ul li{
 }
 .sub_title{
     font-size: 12px;
-    line-height: .8;
+    line-height: 0.8;
     font-weight: 400;
     color: #818181;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 0 0 5px;
 }

@@ -10,26 +10,26 @@ export const NavLinks = [
   {
     name: "Home",
     url: "/",
-    subItems: [
-      {
-        name: "Home 01",
-        url: "/",
-      },
-      {
-        name: "Home 02",
-        url: "/index-2",
-      },
-      {
-        name: "Home 03",
-        url: "/index-3",
-      },
-    ],
+    /*subItems: [
+     {
+       name: "Home 01",
+       url: "/",
+     },
+     {
+      name: "Home 02",
+       url: "/index-2",
+     },
+     {
+      name: "Home 03",
+      url: "/index-3",
+     },
+   ],*/
   },
   {
     name: "About",
     url: "/about",
   },
-  {
+  /*{
     name: "Services",
     url: "/service",
     subItems: [
@@ -78,7 +78,7 @@ export const NavLinks = [
         url: "/blog-single",
       },
     ],
-  },
+  },*/
   {
     name: "Contact",
     url: "/contact",
@@ -385,49 +385,49 @@ export const BlogComments = [
   },
 ];
 
-import portfolio01 from "@/images/portfolio/1.jpg";
-import portfolio02 from "@/images/portfolio/2.jpg";
-import portfolio03 from "@/images/portfolio/3.jpg";
-import portfolio04 from "@/images/portfolio/4.jpg";
-import portfolio05 from "@/images/portfolio/5.jpg";
-import portfolio06 from "@/images/portfolio/6.jpg";
+import portfolio01 from "@/images/portfolio/school.png";
+import portfolio02 from "@/images/portfolio/office.png";
+import portfolio03 from "@/images/portfolio/hospital.png";
+import portfolio04 from "@/images/portfolio/factory.png";
+import portfolio05 from "@/images/portfolio/home.png";
+import portfolio06 from "@/images/portfolio/shop.png";
 
 export const PortfolioData = [
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "For SCHOOL",
+    categories: ["UV Lighting", "Surface Disinfection"],
     image: portfolio01,
-    url: "/portfolio-details",
+    url: "/",
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "For OFFICE",
+    categories: ["UV Lighting", "Surface Disinfection"],
     image: portfolio02,
-    url: "/portfolio-details",
+    url: "/",
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "For HOSPITAL",
+    categories: ["UV Lighting", "Surface Disinfection"],
     image: portfolio03,
-    url: "/portfolio-details",
+    url: "/",
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "For FACTORY",
+    categories: ["UV Lighting", "Surface Disinfection"],
     image: portfolio04,
-    url: "/portfolio-details",
+    url: "/",
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "For HOME",
+    categories: ["UV Lighting", "Surface Disinfection"],
     image: portfolio05,
-    url: "/portfolio-details",
+    url: "/",
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "For SHOP",
+    categories: ["UV Lighting", "Surface Disinfection"],
     image: portfolio06,
-    url: "/portfolio-details",
+    url: "/",
   },
 ];
 
@@ -480,7 +480,7 @@ export const ServicePostData = [
     title: "Modren Design",
     text:
       "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
-    iconName: "mei-settings",
+    iconName: "mei-setting",
     url: "/service-details",
   },
   {
@@ -523,7 +523,7 @@ export const ServicePostTwoData = {
   posts: [
     {
       title: "surface disinfection",
-      iconName: "mei-web-design",
+      iconName: "mei-coronavirus",
       url: "/service-details",
     },
     {
@@ -589,8 +589,8 @@ export const FunfactData = [
     countNumber: 480,
   },
   {
-    title: "Cups of Coffee",
-    countNumber: 626,
+    title: "Products Utilized",
+    countNumber: 60,
   },
   {
     title: "Happy Clients",
@@ -598,50 +598,43 @@ export const FunfactData = [
   },
 ];
 
-import trustClient01 from "@/images/home_1/4.jpg";
+import trustClient01 from "@/images/home_1/airplane_air.jpeg";
 
 export const TrustClientData = {
   image: trustClient01,
-  title: "We are trusted by more than 8900 clients",
+  title: "Far UV Light Significant Tool For Layered Disinfection In Facilities",
   text:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita-tion ullamco laboris nisi ut aliquip ex ea commodo.",
-  url: "/about",
+    "Advances in far UV lighting can provide a solution to increased HVAC use, physical cleaning costs, and unintended consequences of increased air flow. Far UV, in particular, utilizing narrower wavelengths of UV light (around 222nm), has proven to be a safe (will not harm skin or eyes), effective, and easy to implement.",
+  url: "https://www.boeing.com/confident-travel/downloads/CAP-3_Disinfection_with_Far-UV.pdf",
 };
 
-import ClientCarousel01 from "@/images/client/1.png";
-import ClientCarousel02 from "@/images/client/2.png";
-import ClientCarousel03 from "@/images/client/3.png";
-import ClientCarousel04 from "@/images/client/4.png";
-import ClientCarousel05 from "@/images/client/5.png";
+import ClientCarousel01 from "@/images/client/acuity-logo.gif";
+import ClientCarousel02 from "@/images/client/Puro-Lighting-Logo.png";
+import ClientCarousel03 from "@/images/client/mylumens-logo.png";
+//import ClientCarousel04 from "@/images/client/american-ultraviolet-logo.png";
+//import ClientCarousel05 from "@/images/client/UVDI-Logo.webp";
 
 export const ClientCarouselData = {
   sectionContent: {
-    title: "they trust us",
-    subTitle: "our clients",
+    title: "Meet Our Partners",
+    subTitle: "UV Light Disinfection Brands",
     text:
       "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
   },
   items: [
     {
-      url: "#",
+      url: "https://www.acuitybrands.com/",
       image: ClientCarousel01,
     },
     {
-      url: "#",
+      url: "https://purolighting.com/",
       image: ClientCarousel02,
     },
     {
-      url: "#",
+      url: "https://faruvclite.com/",
       image: ClientCarousel03,
     },
-    {
-      url: "#",
-      image: ClientCarousel04,
-    },
-    {
-      url: "#",
-      image: ClientCarousel05,
-    },
+
   ],
 };
 
@@ -988,10 +981,10 @@ export const ParallaxOneData = {
 
 export const PortfolioHomeData = {
   sectionContent: {
-    title: "work showcase",
-    subTitle: "our portfolio",
+    title: "Business Applications",
+    subTitle: "Discover KAIZN Solutions",
     text:
-      "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+      "Our UV light disinfection products are available in a variety of form factors \n including recessed downlight, pendant, surface mount cylinder, troffer and more.",
   },
 };
 
@@ -1016,14 +1009,14 @@ import aboutTwo02 from "@/images/home_1/young-attractive.jpg";
 
 export const AboutTwoData = {
   sectionContent: {
-    title: "We are the Best Website agency in The World",
-    subTitle: "welcom to smart meipaly web agency",
+    title: "We offer the Best Experience for our clients",
+    subTitle: "welcome to KAIZN UV Lighting",
     text:
-      "We are committed to providing our customers with exceptional service while offering our employees the best training. Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 1500s.",
+      "We are committed to providing our customers with exceptional service while offering our employees the best training.",
   },
   button: {
     label: "Learn More",
-    url: "#",
+    url: "/about",
   },
   gallery: [aboutTwo01, aboutTwo02],
 };

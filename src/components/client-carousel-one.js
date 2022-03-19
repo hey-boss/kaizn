@@ -15,7 +15,7 @@ const ClientCarouselOne = () => {
 
   const carouselOptions = {
     spaceBetween: 0,
-    loop: true,
+    loop: false,
     slidesPerView: 1,
     pagination: {
       el: "#client-carousel-pagination",
@@ -40,8 +40,8 @@ const ClientCarouselOne = () => {
       },
       1200: {
         spaceBetween: 30,
-        slidesPerView: 4,
-        slidesPerGroup: 4,
+        slidesPerView: 3,
+        slidesPerGroup: 3,
       },
     },
   };

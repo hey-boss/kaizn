@@ -13,10 +13,9 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a>
               <p>
-                Welcome to our web design agency. Lorem ipsum is simply free
-                text dolor sit amet consectetur adipisicing elit. Tempore
-                corrupti temporibus fuga earum asperiores, alias excepturi sit
-                mpedit fugit laudantium.
+              Kaizn delivers intelligent, sustainable disinfection technologies creating ecosystems that
+              improve productivity and health through clinically proven ultraviolet germicidal irradiation
+              (UVGI) solutions, specifically UV-C. UV-C is ultraviolet light with a wavelength between 200nm and 280nm
               </p>
             </aside>
           </div>
@@ -24,13 +23,13 @@ const Footer = () => {
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
               <p>
-                66 Broklyn Street, New York
+                Street, New York
                 <br />
                 United States of America
               </p>
-              <p>P: 666 888 000</p>
+              <p>P: 000 000 000</p>
               <p>
-                E: <a href="#">needhelp@meipaly.com</a>
+                E: <a href="#">info@kaizn.com</a>
               </p>
             </aside>
           </div>
@@ -40,17 +39,12 @@ const Footer = () => {
               <ul>
                 <li>
                   <a href="#">
-                    <i className="fa fa-twitter"></i>Twitter
+                    <i className="fa fa-linkedin"></i>Linked In
                   </a>
                 </li>
                 <li>
                   <a href="#">
                     <i className="fa fa-facebook-square"></i>Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-youtube-play"></i>Youtube
                   </a>
                 </li>
               </ul>
@@ -61,7 +55,7 @@ const Footer = () => {
           <div className="col-lg-12 col-sm-12 text-center">
             <div className="copyright">
               © copyright {new Date().getFullYear()} by{" "}
-              <a href="#">Layerdrops.com</a>
+              <a href="#">Kaizn.com</a>
             </div>
           </div>
         </div>

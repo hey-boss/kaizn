@@ -691,7 +691,7 @@ License URI:
 / 8. Trust Client Section
 ------------------------------------------------------*/
 .trustClient {
-  padding: 0 0 0;
+  padding: 0 0 150px 0;
   margin-top: -210px;
   z-index: 5;
 }
@@ -1253,7 +1253,7 @@ License URI:
 / 13. Ready Section
 ------------------------------------------------------*/
 .ready {
-  background: url(../images/bg/4.jpg) no-repeat center center / cover;
+  background: url(../images/bg/purple-light.jpg) no-repeat center center / cover;
 }
 .ready .sec_title {
   margin: 0;

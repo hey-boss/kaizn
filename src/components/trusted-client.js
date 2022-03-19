@@ -19,7 +19,7 @@ const TrustedClient = ({ extraClassName }) => {
                       <h2>{title}</h2>
                       <p>{text}</p>
                       <Link to={url} className="common_btn red_bg">
-                        <span>Learn More</span>
+                        <span>Read Full Report</span>
                       </Link>
                     </div>
                   </div>
