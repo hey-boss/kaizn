@@ -88,10 +88,10 @@ const PopupMenu = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
-                <li>Phone: 666 888 000</li>
-                <li>Email: needhelp@meipaly.com</li>
+                <li>Phone: 000 000 000</li>
+                <li>Email: info@kaizn.com</li>
                 <li>
-                  Address: 66 Broklyn Street, New York United States of America
+                  Address: Street, New York United States of America
                 </li>
               </ul>
             </div>
@@ -100,7 +100,7 @@ const PopupMenu = () => {
                 <ul>
                   <li>
                     <a href="#">
-                      <i className="fa fa-twitter"></i>Twitter
+                      <i className="fa fa-linkedin"></i>Linked In
                     </a>
                   </li>
                   <li>
@@ -108,11 +108,7 @@ const PopupMenu = () => {
                       <i className="fa fa-facebook-square"></i>Facebook
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-youtube-play"></i>Youtube
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </div>

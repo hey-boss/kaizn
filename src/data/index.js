@@ -534,27 +534,27 @@ export const ServicePostTwoData = {
     {
       title: "surface disinfection",
       iconName: serviceIcon01,
-      url: "/service-details",
+      url: "/",
     },
     {
       title: "clean high-touch spaces",
       iconName: serviceIcon02,
-      url: "/service-details",
+      url: "/",
     },
     {
       title: "clean entrances",
       iconName: serviceIcon03,
-      url: "/service-details",
+      url: "/",
     },
     {
       title: "Enclosed Place Air Sanitization",
       iconName: serviceIcon04,
-      url: "/service-details",
+      url: "/",
     },
     {
       title: "Sanitization for Big Space",
       iconName: serviceIcon05,
-      url: "/service-details",
+      url: "/",
     },
   ],
 };
@@ -648,19 +648,19 @@ export const ClientCarouselData = {
   ],
 };
 
-import aboutOne01 from "@/images/about/1.jpg";
-import aboutOne02 from "@/images/about/2.jpg";
+import aboutOne01 from "@/images/about/covid19.jpeg";
+import aboutOne02 from "@/images/about/UV-seat.jpeg";
 
 export const AboutOneData = {
   sectionContent: {
-    title: "build better website alot quicker with meipaly agency",
+    title: "WE OFFER THE BEST EXPERIENCE FOR OUR CLIENTS",
     subTitle: "get to know us",
   },
   gallery: [aboutOne01, aboutOne02],
-  counter: {
+ /* counter: {
     title: "Company Started",
     number: 1990,
-  },
+  },*/
 };
 
 import team01 from "@/images/team/1.jpg";
@@ -818,7 +818,7 @@ export const TestimonialsOneData = {
       designation: "Director",
       image: testimonial01,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
     {
@@ -826,7 +826,7 @@ export const TestimonialsOneData = {
       designation: "CO Founder",
       image: testimonial02,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
     {
@@ -834,7 +834,7 @@ export const TestimonialsOneData = {
       designation: "Manager",
       image: testimonial03,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
     {
@@ -842,7 +842,7 @@ export const TestimonialsOneData = {
       designation: "Director",
       image: testimonial01,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
     {
@@ -850,7 +850,7 @@ export const TestimonialsOneData = {
       designation: "CO Founder",
       image: testimonial02,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
     {
@@ -858,7 +858,7 @@ export const TestimonialsOneData = {
       designation: "Manager",
       image: testimonial03,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
     {
@@ -866,7 +866,7 @@ export const TestimonialsOneData = {
       designation: "Director",
       image: testimonial01,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
     {
@@ -874,7 +874,7 @@ export const TestimonialsOneData = {
       designation: "CO Founder",
       image: testimonial02,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
     {
@@ -882,100 +882,69 @@ export const TestimonialsOneData = {
       designation: "Manager",
       image: testimonial03,
       content:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected hum",
+        "This is due to their excellent service, competitive pricing and customer support.",
       date: "25 nov, 2018",
     },
   ],
 };
 
-import featureTab01 from "@/images/home_1/c1.jpg";
-import featureTab02 from "@/images/home_1/c2.jpg";
-import featureTab03 from "@/images/home_1/c3.jpg";
+import featureTab01 from "@/images/home_1/c1.jpeg";
+import featureTab02 from "@/images/home_1/c2.jpeg";
+import featureTab03 from "@/images/home_1/c3.jpeg";
 
 export const FeatureTabData = {
   sectionContent: {
-    title: "why choose us",
-    subTitle: "our benefits",
+    title: "UV Lighting Frequently Asked Questions",
+    subTitle: "UV Light Disinfection Benefits",
     text:
-      "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+      "",
   },
   posts: [
     {
-      title: "Latest technology",
+      title: "What is UV Lighting?",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+        "Ultraviolet light (UV) is a form of electromagnetic radiation with a wavelength from 100nm to 400nm. The UV spectrum is further broken down into 3 bands known as UVC, UVB, and UVA. UVC wavelengths are from 100-280nm, UVB wavelengths are from 280-315nm, and UVA wavelengths are from 315-400nm. UV is present naturally in solar radiation. Radiation is the emission energy in the form of waves or particles through space or through a material medium, and includes, among other forms, ultraviolet, visible light, and infrared emission. Above the Earth’s atmosphere, solar radiation is 10% UV (UVC, UVB & UVA), 40% visible, and 50% infrared. After passing through the Earth’s atmosphere, radiation is 5% UV (UVB & UVA only), 43% visible, and 52% infrared. All UVC is absorbed by the Earth’s atmosphere, which is notable as it relates to UV light disinfection technology because most UV light disinfection technology is based on UVC wavelengths and must be electrically generated. See other FAQs for more information on specific UVC sources.        ",
       image: featureTab01,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "We use Far-UVC which is 207nm-222nm",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "Most effective for disinfecting",
         },
         {
-          item: "The ability to connect up to 32 time clocks",
-        },
-        {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
+          item: "Safe for skins and eyes",
         },
       ],
     },
     {
-      title: "Awesome Support",
+      title: "What are UV Lights used for?",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+        "UV Lights can be used in a multitude of occupied and unoccupied spaces depending on the type of UV light disinfection* strategy you implement. UV lights can be used for inactivating viruses1 and bacteria1 in virtually any space. Acuity Brands recommends utilizing UV light disinfection in spaces such as school classrooms, office conference rooms, restaurant and hospitality, public areas, health clubs, hospital patient rooms, operating rooms, and other high-touch spaces.",
       image: featureTab02,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "Sterilize that air when installed in HVAC systems or in upper room air irradiation units to prevent airborne illnesses. ",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "Used for killing bacteria, creating fluorescent effects, curing inks and resins, phototherapy and suntanning.",
         },
-        {
-          item: "The ability to connect up to 32 time clocks",
-        },
-        {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
-        },
+
       ],
     },
     {
-      title: "1 Click demo install",
+      title: "Why are UV lights purple?",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+        "Ultraviolet (UV) 'light' is a type of electromagnetic radiation. UV light has a shorter wavelength than visible light. Purple and violet light have shorter wavelengths than other colors of light, and ultraviolet has even shorter waves than violet does; so ultraviolet is sort of 'purpler-than-purple' light or 'beyond violet' light.",
       image: featureTab03,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "Scientists subdivide the ultraviolet spectrum into regions named near UV, far UV, and extreme UV.",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "These divisions are comparable to the partitions between different colors, and hence different wavelengths, of visible light. ",
         },
-        {
-          item: "The ability to connect up to 32 time clocks",
-        },
-        {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
-        },
+
       ],
     },
   ],

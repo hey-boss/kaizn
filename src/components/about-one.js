@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutOneData } from "@/data";
 const AboutOne = () => {
-  const { sectionContent, gallery, counter } = AboutOneData;
+  const { sectionContent, gallery } = AboutOneData;
   return (
     <section className="commonSection">
       <div className="container">
@@ -18,9 +18,6 @@ const AboutOne = () => {
           <div className="col-lg-12 col-sm-12">
             <div className="agency_img2">
               <img src={gallery[1]} alt="" />
-            </div>{" "}
-            <div className="compay_date">
-              <h5> {counter.title} </h5> <h2> {counter.number} </h2>{" "}
             </div>{" "}
           </div>{" "}
         </div>{" "}

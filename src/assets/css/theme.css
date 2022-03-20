@@ -1853,8 +1853,8 @@ License URI:
 ------------------------------------------------------*/
 .pageBanner {
   position: relative;
-  min-height: 465px;
-  background: url(../images/bg/8.jpg) no-repeat center center / cover;
+  min-height: 430px;
+  background-color: #000000;
   padding-top: 224px;
 }
 .banner_content {

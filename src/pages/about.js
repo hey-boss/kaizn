@@ -21,8 +21,6 @@ const AboutPage = () => {
           <PageBanner title="About Us" name="About" />
           <AboutOne />
           <TestimonialsOneCarousel />
-          <SubscribeForm />
-          <TeamCarousel />
           <FeatureTabOne />
           <CallToActionOne extraClassName="ready" />
           <Footer />
