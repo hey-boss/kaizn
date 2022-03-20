@@ -513,6 +513,16 @@ export const ServiceHomeThreeData = {
     "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
 };
 
+
+
+import serviceIcon01 from "@/images/icon/service1.svg";
+import serviceIcon02 from "@/images/icon/service2.svg";
+import serviceIcon03 from "@/images/icon/service3.svg";
+import serviceIcon04 from "@/images/icon/service4.svg";
+import serviceIcon05 from "@/images/icon/service5.svg";
+
+
+
 export const ServicePostTwoData = {
   sectionContent: {
     title: "We have the products to shine a light  \n on all of life’s most important moments.",
@@ -523,27 +533,27 @@ export const ServicePostTwoData = {
   posts: [
     {
       title: "surface disinfection",
-      iconName: "mei-coronavirus",
+      iconName: serviceIcon01,
       url: "/service-details",
     },
     {
       title: "clean high-touch spaces",
-      iconName: "mei-development-1",
+      iconName: serviceIcon02,
       url: "/service-details",
     },
     {
       title: "clean entrances",
-      iconName: "mei-development",
+      iconName: serviceIcon03,
       url: "/service-details",
     },
     {
       title: "Enclosed Place Air Sanitization",
-      iconName: "mei-computer-graphic",
+      iconName: serviceIcon04,
       url: "/service-details",
     },
     {
       title: "Sanitization for Big Space",
-      iconName: "mei-app-development",
+      iconName: serviceIcon05,
       url: "/service-details",
     },
   ],

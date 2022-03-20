@@ -7,11 +7,11 @@ const ServiceCardTwo = ({ data }) => {
     <Link className="icon_box_1 text-center" to={url}>
       <div className="flipper">
         <div className="front">
-          <i className={iconName}></i>
+          <img src={iconName} alt="" />
           <h3>{title}</h3>
         </div>
         <div className="back">
-          <i className={iconName}></i>
+          <img src={iconName} alt="" />
           <h3>{title}</h3>
         </div>
       </div>
