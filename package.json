@@ -28,6 +28,7 @@
     "typeface-oswald": "^1.1.13"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "prettier": "2.2.1"
   },
   "keywords": [
