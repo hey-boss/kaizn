@@ -102,7 +102,7 @@ const PopupMenu = () => {
                     <a href="#">
                       <i className="fa fa-linkedin"></i>Linked In
                     </a>
-                  </li>
+                  </li> 
                   <li>
                     <a href="#">
                       <i className="fa fa-facebook-square"></i>Facebook
