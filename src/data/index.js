@@ -85,8 +85,8 @@ export const NavLinks = [
   },
 ];
 
-import sliderOne01 from "@/images/slider/purple-city.jpg";
-import sliderOne02 from "@/images/slider/worker-with-tablet.jpg";
+import sliderOne01 from "@/images/slider/skyline-daylight.jpg";
+import sliderOne02 from "@/images/slider/office-workers.jpeg";
 
 export const SliderOneData = [
   {
