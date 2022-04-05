@@ -629,8 +629,8 @@ export const TrustClientData = {
 };
 
 import ClientCarousel01 from "@/images/client/acuity-logo.gif";
-import ClientCarousel02 from "@/images/client/Puro-Lighting-Logo.png";
-import ClientCarousel03 from "@/images/client/mylumens-logo.png";
+import ClientCarousel02 from "@/images/client/rzero-logo.png";
+import ClientCarousel03 from "@/images/client/Christie-blue-logo.jpeg";
 //import ClientCarousel04 from "@/images/client/american-ultraviolet-logo.png";
 //import ClientCarousel05 from "@/images/client/UVDI-Logo.webp";
 
