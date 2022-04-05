@@ -6,12 +6,12 @@ const CallToActionOne = ({ extraClassName, buttonClass }) => {
     <section className={`commonSection ${extraClassName}`}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-9 col-sm-8 col-md-9">
-            <h2 className="sec_title white">Let's Get Your Project Started!</h2>
+          <div className="col-lg-8 col-sm-7 col-md-8">
+            <h2 className="sec_title">Let's Get Your Project Started!</h2>
           </div>
-          <div className="col-lg-3  col-sm-4 col-md-3 text-right">
+          <div className="col-lg-4  col-sm-5 col-md-4 text-right">
             <Link to="/contact" className={`common_btn ${buttonClass}`}>
-              <span>Contact with us</span>
+              <span>Contact Us</span>
             </Link>
           </div>
         </div>

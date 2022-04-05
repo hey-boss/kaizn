@@ -520,6 +520,11 @@ import serviceIcon02 from "@/images/icon/service2.svg";
 import serviceIcon03 from "@/images/icon/service3.svg";
 import serviceIcon04 from "@/images/icon/service4.svg";
 import serviceIcon05 from "@/images/icon/service5.svg";
+import serviceIcon06 from "@/images/icon/service1_Dark.svg";
+import serviceIcon07 from "@/images/icon/service2_Dark.svg";
+import serviceIcon08 from "@/images/icon/service3_Dark.svg";
+import serviceIcon09 from "@/images/icon/service4_Dark.svg";
+import serviceIcon10 from "@/images/icon/service5_Dark.svg";
 
 
 
@@ -527,33 +532,38 @@ export const ServicePostTwoData = {
   sectionContent: {
     title: "We have the products to shine a light  \n on all of life’s most important moments.",
     subTitle: "Services we are offering",
-    text:
-      "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
+    /*text:
+      "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",*/
   },
   posts: [
     {
       title: "surface disinfection",
-      iconName: serviceIcon01,
+      iconName_Dark: serviceIcon01,
+      iconName: serviceIcon06,
       url: "/",
     },
     {
       title: "clean high-touch spaces",
-      iconName: serviceIcon02,
+      iconName_Dark: serviceIcon02,
+      iconName: serviceIcon07,
       url: "/",
     },
     {
       title: "clean entrances",
-      iconName: serviceIcon03,
+      iconName_Dark: serviceIcon03,
+      iconName: serviceIcon08,
       url: "/",
     },
     {
       title: "Enclosed Place Air Sanitization",
-      iconName: serviceIcon04,
+      iconName_Dark: serviceIcon04,
+      iconName: serviceIcon09,
       url: "/",
     },
     {
       title: "Sanitization for Big Space",
-      iconName: serviceIcon05,
+      iconName_Dark: serviceIcon05,
+      iconName: serviceIcon10,
       url: "/",
     },
   ],
@@ -633,23 +643,23 @@ export const ClientCarouselData = {
   },
   items: [
     {
-      url: "https://www.acuitybrands.com/",
+      url: "/about",
       image: ClientCarousel01,
     },
     {
-      url: "https://purolighting.com/",
+      url: "/about",
       image: ClientCarousel02,
     },
     {
-      url: "https://faruvclite.com/",
+      url: "/about",
       image: ClientCarousel03,
     },
 
   ],
 };
 
-import aboutOne01 from "@/images/about/covid19.jpeg";
-import aboutOne02 from "@/images/about/UV-seat.jpeg";
+import aboutOne01 from "@/images/about/office-building.jpg";
+import aboutOne02 from "@/images/about/architects.jpg";
 
 export const AboutOneData = {
   sectionContent: {

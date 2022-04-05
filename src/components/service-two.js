@@ -12,7 +12,7 @@ const ServiceTwo = () => {
         <Row>
           <Col lg={12} className="text-center">
             <h4 className="sub_title red_color">{subTitle}</h4>
-            <h2 className="sec_title white">{title}</h2>
+            <h2 className="sec_title">{title}</h2>
             <p className="sec_desc color_aaa">{text}</p>
           </Col>
         </Row>
