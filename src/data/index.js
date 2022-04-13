@@ -85,8 +85,8 @@ export const NavLinks = [
   },
 ];
 
-import sliderOne01 from "@/images/slider/skyline-daylight.jpg";
-import sliderOne02 from "@/images/slider/office-workers.jpeg";
+import sliderOne01 from "@/images/slider/skyline-daylight-lavender.jpg";
+import sliderOne02 from "@/images/slider/office-workers-lavender.png";
 
 export const SliderOneData = [
   {
@@ -659,7 +659,7 @@ export const ClientCarouselData = {
 };
 
 import aboutOne01 from "@/images/about/office-building.jpg";
-import aboutOne02 from "@/images/about/architects.jpg";
+import aboutOne02 from "@/images/about/experts.jpg";
 
 export const AboutOneData = {
   sectionContent: {

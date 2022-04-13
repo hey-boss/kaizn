@@ -134,13 +134,13 @@ ul li{
     padding: 28px 40.5px;
 }
 .common_btn.red_bg:after{
-    background: #FBD52A;
+    background: #f3edff;
 }
 .common_btn.red_bg:hover:after{
     width: 100%;
 }
 .common_btn.red_bg:hover{
-    color: #fff;
+    color: #000;
 }
 
 /*------------------------------------------------------------------------------

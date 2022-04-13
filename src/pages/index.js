@@ -6,7 +6,7 @@ import BlogHome from "@/components/blog-home";
 import ParallaxOne from "@/components/parallax-1";
 import ClientCarouselOne from "@/components/client-carousel-one";
 import TeamCarousel from "@/components/team-carousel";
-import FunfactOne from "@/components/funfact-one";
+import FunfactOne from "@/components/funfact-one-kaizn";
 import TrustedClient from "@/components/trusted-client";
 import PortfolioHome from "@/components/portfolio-home";
 import SubscribeForm from "@/components/subscribe-form";

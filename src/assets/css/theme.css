@@ -196,10 +196,10 @@ License URI:
 }
 .black_color .navigator a.active,
 .black_color .navigator a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .fixedHeader {
-  background: #FBD52A;
+  background: #f3edff;
   left: 0;
   position: fixed;
   right: 0;
@@ -231,7 +231,7 @@ License URI:
 / 2. Revolution Slider
 ------------------------------------------------------*/
 .rev_slider {
-  position: relative;
+  position: top;
 }
 .rev_slider .tp-leftarrow.me_arrows,
 .rev_slider .tp-rightarrow.me_arrows {
@@ -288,7 +288,7 @@ License URI:
 / 3. Services Section
 ------------------------------------------------------*/
 .service_section {
-  background: #FBD52A;
+  background: #f3edff;
 }
 .icon_box_1 {
   display: inline-block;
@@ -460,7 +460,7 @@ License URI:
   top: -40px;
   left: 40px;
   content: "";
-  border: 10px solid #FBD52A;
+  border: 10px solid #f3edff;
   width: 470px;
   height: 458px;
 }
@@ -512,7 +512,7 @@ License URI:
   height: 115px;
   border-radius: 0;
   position: relative;
-  background: #FBD52A;
+  background: #f3edff;
   color: #fff;
   font-size: 30px;
   line-height: 0.8;
@@ -600,7 +600,7 @@ License URI:
   bottom: 0;
   left: 0;
   right: 0;
-  background: #FBD52A;
+  background: #f3edff;
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -613,7 +613,7 @@ License URI:
 .singlefolio .folioHover a.cate {
   font-size: 12px;
   line-height: 32px;
-  color: #fff;
+  color: #000;
   display: block;
   letter-spacing: 1.2px;
   margin: 0 0 3px;
@@ -625,23 +625,23 @@ License URI:
 .singlefolio .folioHover h4 {
   font-size: 20px;
   line-height: 0.8;
-  color: #fff;
+  color: #000;
   letter-spacing: 0.8px;
   margin: 0;
   text-transform: uppercase;
 }
 .singlefolio .folioHover h4 a {
-  color: #fff;
+  color: #000;
   transition: all ease 400ms;
   -webkit-transition: all ease 400ms;
   -moz-transition: all ease 400ms;
 }
 .singlefolio:hover img {
-  transform: scale(1.1) rotate(2deg);
-  -moz-transform: scale(1.1) rotate(2deg);
-  -webkit-transform: scale(1.1) rotate(2deg);
-  -ms-transform: scale(1.1) rotate(2deg);
-  -o-transform: scale(1.1) rotate(2deg);
+  transform: scale(1.1) ;
+  -moz-transform: scale(1.1) ;
+  -webkit-transform: scale(1.1) ;
+  -ms-transform: scale(1.1) ;
+  -o-transform: scale(1.1) ;
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
@@ -909,7 +909,7 @@ License URI:
   transition: all 0.4s ease-out;
 }
 .singleTM:hover .detail_TM h5 {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .singleTM:hover .detail_TM h6:after {
   width: 100%;
@@ -1012,7 +1012,7 @@ License URI:
   bottom: 0;
   margin: auto 0;
   content: "";
-  background: #FBD52A;
+  background: #f3edff;
   visibility: hidden;
   opacity: 0;
   transition: all ease 500ms;
@@ -1088,7 +1088,7 @@ License URI:
   bottom: 0;
   margin: auto 0;
   content: "";
-  background: #FBD52A;
+  background: #f3edff;
   visibility: hidden;
   opacity: 0;
   transition: all ease 500ms;
@@ -1133,7 +1133,7 @@ License URI:
 .testimonial_content .testi_icon {
   width: 115px;
   height: 115px;
-  background: #FBD52A;
+  background: #f3edff;
   text-align: center;
   display: inline-block;
   font-size: 64px;
@@ -1151,7 +1151,7 @@ License URI:
   margin: 0 0 44px;
 }
 .testimonial_content h2 span {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .testimonial_content p {
   font-size: 20px;
@@ -1206,7 +1206,7 @@ License URI:
 }
 .lbi_details .lbid_date:hover {
   color: #fff;
-  background: #FBD52A;
+  background: #f3edff;
 }
 .lbi_details h2 {
   font-size: 26px;
@@ -1220,7 +1220,7 @@ License URI:
   color: #000;
 }
 .lbi_details h2 a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .lbi_details .learnM {
   display: inline-block;
@@ -1235,7 +1235,7 @@ License URI:
   width: 0;
   height: 1px;
   content: "";
-  background: #FBD52A;
+  background: #f3edff;
   position: absolute;
   left: 0;
   right: 0;
@@ -1248,7 +1248,7 @@ License URI:
   width: 100%;
 }
 .lbi_details .learnM:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 
 /*----------------------------------------------------
@@ -1281,7 +1281,7 @@ License URI:
 .footer_1 {
   position: relative;
   padding: 130px 0 0;
-  background: #FBD52A;
+  background: #f3edff;
 }
 .footer_1 .widget {
   position: relative;
@@ -1326,7 +1326,7 @@ License URI:
 }
 .footer_1 .copyright a:hover,
 .footer_1 .contact_widgets p a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .footer_1 .contact_widgets p:first-of-type {
   margin-bottom: 32px;
@@ -1391,7 +1391,7 @@ License URI:
   bottom: 0;
   margin: auto 0;
   content: "";
-  background: #FBD52A;
+  background: #f3edff;
   visibility: hidden;
   opacity: 0;
   z-index: 3;
@@ -1443,7 +1443,7 @@ License URI:
   margin: 0;
 }
 .icon_box_2 a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .icon_box_2:hover {
   -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
@@ -1514,7 +1514,7 @@ License URI:
   position: relative;
 }
 .img_details {
-  background: #FBD52A;
+  background: #f3edff;
   display: inline-block;
   padding: 43px 103px 45px 50px;
   position: absolute;
@@ -1535,6 +1535,9 @@ License URI:
 / 17. Tesimonial 02 Section
 ------------------------------------------------------*/
 .testimonial_2 {
+  background: url(../images/bg/lavender.jpg) no-repeat center center / cover;
+}
+.testimonial_3 {
   background: url(../images/bg/7.jpg) no-repeat center center / cover;
 }
 .testimoniTab {
@@ -1583,7 +1586,7 @@ License URI:
   right: 0;
   bottom: 0;
   content: "“";
-  background: #FBD52A;
+  background: #f3edff;
   font-size: 30px;
   line-height: 0.8;
   padding: 11px 0;
@@ -1727,7 +1730,7 @@ License URI:
 }
 .wh_choose ul li i {
   font-size: 14px;
-  color: #FBD52A;
+  color: #f3edff;
   line-height: 32px;
   margin-right: 15px;
 }
@@ -1836,7 +1839,7 @@ License URI:
   font-size: 24px;
   color: #fff;
   letter-spacing: 0.96px;
-  background: #FBD52A;
+  background: #f3edff;
   padding: 61px 0;
 }
 .btn_link a:hover {
@@ -1847,7 +1850,7 @@ License URI:
   background: #000;
 }
 .btn_link.bg_black a:hover {
-  background: #FBD52A;
+  background: #f3edff;
 }
 
 /*----------------------------------------------------
@@ -1856,7 +1859,7 @@ License URI:
 .pageBanner {
   position: relative;
   min-height: 400px;
-  background-color: #FBD52A;
+  background-color: #f3edff;
   padding-top: 200px;
 }
 .banner_content {
@@ -1894,7 +1897,7 @@ License URI:
   position: absolute;
   right: 60px;
   top: 60px;
-  border: 10px solid #FBD52A;
+  border: 10px solid #f3edff;
   height: 464px;
   width: 530px;
   content: "";
@@ -2021,7 +2024,7 @@ License URI:
   font-size: 16px;
 }
 .serviceArea ul li i {
-  color: #FBD52A;
+  color: #f3edff;
   margin-right: 10px;
   line-height: 36px;
 }
@@ -2152,7 +2155,7 @@ License URI:
   top: -1px;
 }
 .nextprevPagination a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .singlePortfoio_content {
   position: relative;
@@ -2183,7 +2186,7 @@ License URI:
   color: #818181;
 }
 .singlePortfoio_content p a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .singlePortfoio_content ul {
   margin: 17px 0 0;
@@ -2208,7 +2211,7 @@ License URI:
   width: 0;
   height: 1px;
   content: "";
-  background: #FBD52A;
+  background: #f3edff;
   position: absolute;
   left: 0;
   right: 0;
@@ -2218,7 +2221,7 @@ License URI:
   transition: all 0.4s ease-out;
 }
 .singlePortfoio_content ul li a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .singlePortfoio_content ul li a:hover:after {
   width: 100%;
@@ -2263,7 +2266,7 @@ License URI:
   bottom: 0;
   margin: auto 0;
   content: "";
-  background: #FBD52A;
+  background: #f3edff;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.4s ease-out;
@@ -2310,7 +2313,7 @@ License URI:
   display: block;
   height: 31px;
   width: 65px;
-  background: #FBD52A;
+  background: #f3edff;
   color: #ffffff;
   padding: 11px 0;
   text-align: center;
@@ -2342,7 +2345,7 @@ License URI:
   margin-left: 0;
 }
 .blog_headings .blog_metas a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .blog_details {
   padding: 0px 40px 22px;
@@ -2399,14 +2402,14 @@ License URI:
   color: #000;
 }
 .post_author h3 a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .post_author p {
   line-height: 30px;
   margin: 0 0 16px;
 }
 .post_author > a {
-  color: #FBD52A;
+  color: #f3edff;
   line-height: 0.8;
   display: inline-block;
   position: relative;
@@ -2418,7 +2421,7 @@ License URI:
   width: 100%;
   height: 1px;
   content: "";
-  background: #FBD52A;
+  background: #f3edff;
   position: absolute;
   left: 0;
   right: 0;
@@ -2483,13 +2486,13 @@ License URI:
   color: #000;
 }
 .single-comment .authorDetails h5 a:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .single-comment .authorDetails span {
   display: block;
   font-size: 12px;
   line-height: 30px;
-  color: #FBD52A;
+  color: #f3edff;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   margin: 0 0 27px;
@@ -2540,7 +2543,7 @@ License URI:
   transition: all 0.3s ease-out;
 }
 .input-form.reqError {
-  border: 1px solid #FBD52A;
+  border: 1px solid #f3edff;
 }
 textarea.input-form {
   height: 190px;
@@ -2575,7 +2578,7 @@ textarea.input-form:focus {
   -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
-  border-right: 4px solid #FBD52A;
+  border-right: 4px solid #f3edff;
   background: #fff;
 }
 .sidebar .widget {
@@ -2767,7 +2770,7 @@ textarea.input-form:focus {
   -moz-transition: all ease 400ms;
 }
 .searchForms button[type="submit"]:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 .searchForms input {
   width: 100%;
@@ -2855,7 +2858,7 @@ textarea.input-form:focus {
 }
 .sfCloser:hover:after,
 .sfCloser:hover:before {
-  background: #FBD52A;
+  background: #f3edff;
 }
 
 /*------------------------------------------------------------------------------
@@ -2939,7 +2942,7 @@ textarea.input-form:focus {
 }
 .close-popup:hover:after,
 .close-popup:hover:before {
-  background: #FBD52A;
+  background: #f3edff;
 }
 .logo2 {
   z-index: 99;
@@ -3434,7 +3437,7 @@ textarea.input-form:focus {
 / 29. Bact To Top
 ------------------------------------------------------*/
 .showit {
-  background: #FBD52A;
+  background: #f3edff;
   bottom: 60px;
   color: #000;
   font-size: 20px;
@@ -3514,7 +3517,7 @@ textarea.input-form:focus {
 }
 .color_settings .switch-btn.active,
 .color_settings .switch-btn:hover {
-  color: #FBD52A;
+  color: #f3edff;
 }
 
 /* main slider in react js */
