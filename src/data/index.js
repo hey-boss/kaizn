@@ -631,8 +631,10 @@ export const TrustClientData = {
 import ClientCarousel01 from "@/images/client/acuity-logo.gif";
 import ClientCarousel02 from "@/images/client/rzero-logo.png";
 import ClientCarousel03 from "@/images/client/Christie-blue-logo.jpeg";
-//import ClientCarousel04 from "@/images/client/american-ultraviolet-logo.png";
-//import ClientCarousel05 from "@/images/client/UVDI-Logo.webp";
+import ClientCarousel04 from "@/images/client/ushio-logo.png";
+import ClientCarousel05 from "@/images/client/masten-logo.png";
+import ClientCarousel06 from "@/images/client/Sandra-logo.png";
+import ClientCarousel07 from "@/images/client/TERRA-FORM-LOGO.png";
 
 export const ClientCarouselData = {
   sectionContent: {
@@ -654,7 +656,22 @@ export const ClientCarouselData = {
       url: "/about",
       image: ClientCarousel03,
     },
-
+    {
+      url: "/about",
+      image: ClientCarousel04,
+    },
+    {
+      url: "/about",
+      image: ClientCarousel05,
+    },
+    {
+      url: "/about",
+      image: ClientCarousel06,
+    },
+    {
+      url: "/about",
+      image: ClientCarousel07,
+    },
   ],
 };
 
