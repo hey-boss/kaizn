@@ -23,13 +23,6 @@ const Footer = () => {
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
               <p>
-                55 Riverwalk Place, 
-                <br />West New York, NJ 07093
-                <br />
-                United States of America
-              </p>
-              <p>P: 000 000 000</p>
-              <p>
                 E: <a href="#">info@kaizn.com</a>
               </p>
             </aside>
