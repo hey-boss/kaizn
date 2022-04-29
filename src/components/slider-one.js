@@ -29,7 +29,7 @@ const SliderOne = () => {
             ></div>
             <Container>
               <Row>
-                <Col lg={12} className="text-center">
+                <Col lg={12} className="text-left">
                   <p className="main-slider__subtext">{subTitle}</p>
                   <h3 className="main-slider__title">{title}</h3>
                   <Link to={button.url} className={`common_btn`}>

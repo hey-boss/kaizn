@@ -3537,7 +3537,7 @@ textarea.input-form:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transform: scale(1);
@@ -3556,7 +3556,7 @@ textarea.input-form:focus {
 
 .main-slider__title {
   white-space: pre-line;
-  font-size: 30px;
+  font-size: 50px;
   text-transform: uppercase;
   color: #000;
   -webkit-text-stroke: 1px #fff;
@@ -3593,7 +3593,7 @@ textarea.input-form:focus {
 }
 @media (min-width: 1200px) {
   .main-slider__title {
-    font-size: 110px;
+    font-size: 90px;
   }
 }
 

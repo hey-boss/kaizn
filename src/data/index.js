@@ -85,8 +85,9 @@ export const NavLinks = [
   },
 ];
 
-import sliderOne01 from "@/images/slider/skyline-daylight-lavender.jpg";
-import sliderOne02 from "@/images/slider/office-workers-lavender.png";
+import sliderOne01 from "@/images/slider/bright-building.png";
+import sliderOne02 from "@/images/slider/diverse-team.png";
+import sliderOne03 from "@/images/slider/library.png";
 
 export const SliderOneData = [
   {
@@ -100,6 +101,15 @@ export const SliderOneData = [
   },
   {
     image: sliderOne02,
+    subTitle: "WELCOME TO KAIZN UV LIGHTING",
+    title: "We Light Up \n With Safety.",
+    button: {
+      label: "DISCOVER MORE",
+      url: "/about",
+    },
+  },
+  {
+    image: sliderOne03,
     subTitle: "WELCOME TO KAIZN UV LIGHTING",
     title: "We Light Up \n With Safety.",
     button: {
@@ -629,11 +639,11 @@ export const TrustClientData = {
 };
 
 import ClientCarousel01 from "@/images/client/acuity-logo.gif";
-import ClientCarousel02 from "@/images/client/rzero-logo.png";
-import ClientCarousel03 from "@/images/client/Christie-blue-logo.jpeg";
-import ClientCarousel04 from "@/images/client/ushio-logo.png";
-import ClientCarousel05 from "@/images/client/masten-logo.png";
-import ClientCarousel06 from "@/images/client/Sandra-logo.png";
+import ClientCarousel02 from "@/images/client/ushio-logo.png";
+import ClientCarousel03 from "@/images/client/rzero-logo.png";
+import ClientCarousel04 from "@/images/client/Christie-blue-logo.jpeg";
+import ClientCarousel05 from "@/images/client/Sandra-logo.png";
+import ClientCarousel06 from "@/images/client/masten-logo.png";
 import ClientCarousel07 from "@/images/client/TERRA-FORM-LOGO.png";
 
 export const ClientCarouselData = {
