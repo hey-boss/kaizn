@@ -670,7 +670,7 @@ License URI:
 }
 .singlefunfact {
   position: relative;
-  padding-top: 113px;
+  padding-top: 10px;
 }
 .singlefunfact h1 {
   font-size: 60px;
@@ -705,6 +705,7 @@ License URI:
 }
 .CL_content img {
   max-width: 100%;
+  padding-top: 120px;
   height: auto;
 }
 .abc_inner {
@@ -3537,7 +3538,7 @@ textarea.input-form:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-position: left center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-transform: scale(1);

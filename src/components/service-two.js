@@ -18,7 +18,7 @@ const ServiceTwo = () => {
         </Row>
         <Row className="custom_column">
           {posts.map((data, index) => (
-            <Col key={index} lg={3} md={6} sm={12}>
+            <Col key={index} lg={3} md={6} sm={6}>
               <ServiceCardTwo data={data} />
             </Col>
           ))}

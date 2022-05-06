@@ -25,8 +25,8 @@ const ClientCarouselOne = () => {
     breakpoints: {
       0: {
         spaceBetween: 0,
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
       },
       576: {
         spaceBetween: 30,
@@ -62,7 +62,7 @@ const ClientCarouselOne = () => {
               {items.map(({ url, image }, index) => (
                 <SwiperSlide key={index}>
                   <div className="singleClient">
-                    <Link to={url}>
+                    <Link to={url} target="_blank">
                       <img src={image} alt="" />
                     </Link>
                   </div>

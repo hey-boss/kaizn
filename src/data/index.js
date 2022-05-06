@@ -655,31 +655,31 @@ export const ClientCarouselData = {
   },
   items: [
     {
-      url: "/about",
+      url: "https://www.acuitybrands.com/",
       image: ClientCarousel01,
     },
     {
-      url: "/about",
+      url: "https://www.ushio.com/",
       image: ClientCarousel02,
     },
     {
-      url: "/about",
+      url: "https://rzero.com/",
       image: ClientCarousel03,
     },
     {
-      url: "/about",
+      url: "https://www.christiedigital.com/",
       image: ClientCarousel04,
     },
     {
-      url: "/about",
+      url: "https://www.sandraliotuslightingdesign.com/about-us/",
       image: ClientCarousel05,
     },
     {
-      url: "/about",
+      url: "https://mastenelectric.com/",
       image: ClientCarousel06,
     },
     {
-      url: "/about",
+      url: "https://terraform.solutions/",
       image: ClientCarousel07,
     },
   ],

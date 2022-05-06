@@ -18,7 +18,7 @@ const FunfactOne = () => {
       <Container>
         <Row>
           {FunfactData.map(({ title, countNumber }, index) => (
-            <Col lg={3} md={6} sm={12} key={index}>
+            <Col lg={3} md={3} sm={3} key={index}>
               <div className="singlefunfact text-center">
                 <h1 className="timer">
                 </h1>
