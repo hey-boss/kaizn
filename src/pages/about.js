@@ -20,7 +20,6 @@ const AboutPage = () => {
           <HeaderOne />
           <PageBanner title="About Us" name="About" />
           <AboutOne />
-          <TestimonialsOneCarousel />
           <FeatureTabOne />
           <CallToActionOne extraClassName="ready" />
           <Footer />
