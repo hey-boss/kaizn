@@ -1412,10 +1412,11 @@ License URI:
   margin: 0 0 31px;
 }
 .icon_box_2 .iconWrap {
-  position: relative;
-  margin: 0 0 44px;
+  position: inline;
+  margin: auto;
+  width: 60px;
 }
-.icon_box_2 .iconWrap:after {
+/*.icon_box_2 .iconWrap:after {
   background: url(../images/shadow.png) no-repeat center center / cover;
   height: 7px;
   width: 75px;
@@ -1426,7 +1427,7 @@ License URI:
   bottom: -17px;
   margin: 0 auto;
   z-index: 2;
-}
+}*/
 .icon_box_2 .iconWrap i {
   font-size: 64px;
   font-style: normal;
@@ -1524,7 +1525,7 @@ License URI:
 }
 .img_details h4 {
   margin: 0;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 2px;

@@ -485,33 +485,37 @@ export const PortfolioDetailsData = {
   ],
 };
 
+import whyIcon01 from "@/images/icon/glove.svg";
+import whyIcon02 from "@/images/icon/protection.svg";
+import whyIcon03 from "@/images/icon/spread.svg";
+
 export const ServicePostData = [
   {
-    title: "Modren Design",
+    title: "Air Quality",
     text:
-      "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
-    iconName: "mei-setting",
-    url: "/service-details",
+      "Please explain about why customer should choose you.",
+    iconName: whyIcon01,
+    url: "/",
   },
   {
-    title: "Digital products",
+    title: "Clean Environment",
     text:
-      "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
-    iconName: "mei-transfer",
-    url: "/service-details",
+      "Please explain about why customer should choose you.",
+    iconName: whyIcon02,
+    url: "/",
   },
   {
-    title: "Marketing Strategy",
+    title: "biosafety Ecosystem",
     text:
-      "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
-    iconName: "mei-pie-chart",
-    url: "/service-details",
+      "Please explain about why customer should choose you.",
+    iconName: whyIcon03,
+    url: "/",
   },
 ];
 
 export const ServiceHomeTwoData = {
-  subTitle: "welcome to smart meipaly web agency",
-  title: "We design digital products that \n help grow businesses.",
+  subTitle: "welcome to kaizn",
+  title: "Why You should work with us",
   text:
     "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
 };
@@ -1037,34 +1041,34 @@ export const AboutTwoData = {
   gallery: [aboutTwo01, aboutTwo02],
 };
 
-import featureTwo01 from "@/images/home_1/5.jpg";
+import featureTwo01 from "@/images/home_1/how.jpg";
 
 export const FeatureTwoData = {
   sectionContent: {
-    title: "real experience",
-    subTitle: "our core features",
+    title: "How we work",
+    subTitle: "Kaizn Pure Air Program",
     text:
-      " We are committed to providing our customers with exceptional service while offering our employees the best training. ",
+      "Please write a short description for the program. ",
   },
   posts: [
     {
-      title: "No Coding Skills Require",
+      title: "Submit an application",
       text:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered.",
+        "Please write a short description for the program. Please write a short description for the program. ",
     },
     {
-      title: "Online Documentation",
+      title: "Visit & Design ecosystem",
       text:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered.",
+        "Please write a short description for the program. Please write a short description for the program. ",
     },
     {
-      title: "SEO Optimized",
+      title: "Implement to the space",
       text:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered.",
+        "Please write a short description for the program. Please write a short description for the program. ",
     },
   ],
   image: {
-    text: "Total design freedom \n for everyone.",
+    text: "Customized solutions \n only for you.",
     path: featureTwo01,
   },
 };

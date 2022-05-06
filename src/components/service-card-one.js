@@ -8,9 +8,8 @@ const ServiceCardOne = ({ data }) => {
       <h3>{title}</h3>
       <p>{text}</p>
       <div className="iconWrap">
-        <i className={iconName}></i>
+      <img src={iconName}/>
       </div>
-      <Link to={url}>discover more</Link>
     </div>
   );
 };

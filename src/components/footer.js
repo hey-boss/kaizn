@@ -8,14 +8,12 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-sm-6 col-md-5">
-            <aside className="widget aboutwidget">
+            <aside className="widget aboutwidget text-center">
               <a href="/">
                 <img src={light} alt="" />
               </a>
               <p>
-              Kaizn delivers intelligent, sustainable disinfection technologies creating ecosystems that
-              improve productivity and health through clinically proven ultraviolet germicidal irradiation
-              (UVGI) solutions, specifically UV-C. UV-C is ultraviolet light with a wavelength between 200nm and 280nm
+              Kaizn delivers Intelligent sustainable disinfection technology creating ecosystems improving productivity and health.
               </p>
             </aside>
           </div>

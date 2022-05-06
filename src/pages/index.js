@@ -2,14 +2,12 @@ import React from "react";
 import Layout from "@/components/layout";
 import CallToActionOne from "@/components/call-to-action-one";
 import Footer from "@/components/footer";
-import BlogHome from "@/components/blog-home";
-import ParallaxOne from "@/components/parallax-1";
+import ServiceHomeTwo from "@/components/service-home-two";
 import ClientCarouselOne from "@/components/client-carousel-one";
-import TeamCarousel from "@/components/team-carousel";
 import FunfactOne from "@/components/funfact-one-kaizn";
 import TrustedClient from "@/components/trusted-client";
 import PortfolioHome from "@/components/portfolio-home";
-import SubscribeForm from "@/components/subscribe-form";
+import FeatureTwo from "@/components/feature-two";
 import ServiceTwo from "@/components/service-two";
 import AboutTwo from "@/components/about-two";
 import HeaderOne from "@/components/header-one";
@@ -26,6 +24,8 @@ const HomeOne = () => {
           <SliderOne />
           <ServiceTwo />
           <AboutTwo />
+          <ServiceHomeTwo />
+          <FeatureTwo />
           <PortfolioHome />
           <FunfactOne />
           <TrustedClient />
