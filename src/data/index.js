@@ -1036,7 +1036,7 @@ export const AboutTwoData = {
   },
   button: {
     label: "Learn More",
-    url: "/about",
+    url: "/kaizn/about",
   },
   gallery: [aboutTwo01, aboutTwo02],
 };

@@ -10,7 +10,7 @@ const PortfolioCard = ({ data }) => {
           {categories.map(cat => cat + ", ")}
         </a>
         <h4>
-          <a href={url}>{title}</a>
+          <a>{title}</a>
         </h4>
       </div>
     </div>
