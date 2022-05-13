@@ -25,6 +25,7 @@
     "react-helmet": "^6.1.0",
     "react-scroll": "^1.8.1",
     "react-visibility-sensor": "^5.1.1",
+    "rimraf": "^3.0.2",
     "swiper": "^6.4.6",
     "typeface-oswald": "^1.1.13"
   },
@@ -37,14 +38,16 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop", 
+    "build": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy:gh": "gatsby build --prefix-paths && gh-pages -d public"
+    "d0": "rimraf public",
+    "d1": "gatsby build",
+    "d2": "echo 'http://kaiznpureair.com/' > ./public/CNAME && gh-pages -d public"
   },
   "repository": {
     "type": "git",
