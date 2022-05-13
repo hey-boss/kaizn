@@ -96,7 +96,7 @@ export const SliderOneData = [
     title: "We Light Up \n With Safety.",
     button: {
       label: "DISCOVER MORE",
-      url: "/kaizn/about",
+      url: "/about",
     },
   },
   {
@@ -105,7 +105,7 @@ export const SliderOneData = [
     title: "We Light Up \n With Safety.",
     button: {
       label: "DISCOVER MORE",
-      url: "/kaizn/about",
+      url: "/about",
     },
   },
   {
@@ -114,7 +114,7 @@ export const SliderOneData = [
     title: "We Light Up \n With Safety.",
     button: {
       label: "DISCOVER MORE",
-      url: "/kaizn/about",
+      url: "/about",
     },
   },
 ];
@@ -556,31 +556,31 @@ export const ServicePostTwoData = {
       title: "surface disinfection",
       iconName_Dark: serviceIcon01,
       iconName: serviceIcon06,
-      url: "/",
+
     },
     {
       title: "clean high-touch spaces",
       iconName_Dark: serviceIcon02,
       iconName: serviceIcon07,
-      url: "/",
+
     },
     {
       title: "clean entrances",
       iconName_Dark: serviceIcon03,
       iconName: serviceIcon08,
-      url: "/",
+
     },
     {
       title: "Enclosed Place Air Sanitization",
       iconName_Dark: serviceIcon04,
       iconName: serviceIcon09,
-      url: "/",
+
     },
     {
       title: "Sanitization for Big Space",
       iconName_Dark: serviceIcon05,
       iconName: serviceIcon10,
-      url: "/",
+
     },
   ],
 };
@@ -1018,7 +1018,7 @@ export const AboutTwoData = {
   },
   button: {
     label: "Learn More",
-    url: "/kaizn/about",
+    url: "/about",
   },
   gallery: [aboutTwo01, aboutTwo02],
 };

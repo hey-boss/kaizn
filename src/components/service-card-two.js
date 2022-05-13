@@ -11,7 +11,7 @@ const ServiceCardTwo = ({ data }) => {
           <h3>{title}</h3>
         </div>
         <div className="back">
-          <img src={iconName_Dark} alt="" />
+          <img src={iconName_Dark} alt={title} />
           <h3>{title}</h3>
         </div>
       </div>

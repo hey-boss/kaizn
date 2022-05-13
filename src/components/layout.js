@@ -39,7 +39,7 @@ const Layout = ({ PageTitle, children }) => {
     <Fragment>
       <Helmet>
         <title>
-          {PageTitle} - Kaizn - UV Disinfection Lighting Service
+          {PageTitle} - KAIZN PURE AIR - Smile. It's Pure Air
         </title>
       </Helmet>
       <div id="wrapper">{children}</div>

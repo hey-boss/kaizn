@@ -19,7 +19,7 @@ const HomeOne = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="KAIZN UV LIGHTING - Home">
+        <Layout PageTitle="KAIZN PURE AIR - Smile. It's Pure Air">
           <HeaderOne />
           <SliderOne />
           <ServiceTwo />
