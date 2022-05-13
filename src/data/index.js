@@ -92,29 +92,29 @@ import sliderOne03 from "@/images/slider/library.png";
 export const SliderOneData = [
   {
     image: sliderOne01,
-    subTitle: "WELCOME TO KAIZN UV LIGHTING",
+    subTitle: "WELCOME TO KAIZN PURE AIR",
     title: "We Light Up \n With Safety.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about",
+      url: "/kaizn/about",
     },
   },
   {
     image: sliderOne02,
-    subTitle: "WELCOME TO KAIZN UV LIGHTING",
+    subTitle: "WELCOME TO KAIZN PURE AIR",
     title: "We Light Up \n With Safety.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about",
+      url: "/kaizn/about",
     },
   },
   {
     image: sliderOne03,
-    subTitle: "WELCOME TO KAIZN UV LIGHTING",
+    subTitle: "WELCOME TO KAIZN PURE AIR",
     title: "We Light Up \n With Safety.",
     button: {
       label: "DISCOVER MORE",
-      url: "/about",
+      url: "/kaizn/about",
     },
   },
 ];
@@ -247,7 +247,7 @@ export const ContactFormTitle = {
   subTitle: "Contact with us",
   title: "write us a message",
   description:
-    "We are committed to providing our customers with exceptional service while \n      offering our employees the best training. ",
+    "",
 };
 
 import blogImage1 from "@/images/blog/1.jpg";
@@ -405,37 +405,37 @@ import portfolio06 from "@/images/portfolio/shop.png";
 export const PortfolioData = [
   {
     title: "For SCHOOL",
-    categories: ["UV Lighting", "Surface Disinfection"],
+    categories: ["Our solutions give parents peace of mind that their children and staff are in a safe and healthy space, in turn promoting a healthy, productive learning environment."],
     image: portfolio01,
     url: "/",
   },
   {
-    title: "For OFFICE",
-    categories: ["UV Lighting", "Surface Disinfection"],
+    title: "For OFFICE and Workplaces",
+    categories: ["We offer tailored solutions to meet your unique needs for indoor air quality, budget, and safety requirements. Our disinfection ecosystems bring significant economic benefits through a reduced number of sick days through safer indoor environments."],
     image: portfolio02,
     url: "/",
   },
   {
-    title: "For HOSPITAL",
-    categories: ["UV Lighting", "Surface Disinfection"],
+    title: "For HealthCare",
+    categories: ["We create a continuous disinfection ecosystem for medical and dental offices rather than relying on manual disinfection methods. We enable a safer healthcare environment while saving on time and resources."],
     image: portfolio03,
     url: "/",
   },
   {
     title: "For FACTORY",
-    categories: ["UV Lighting", "Surface Disinfection"],
+    categories: ["The work environment can be stressful enough, and the last thing a worker needs is to worry about is poor air quality. Our suite of solutions work on limiting the spread of surface and air and person-to-person pathogen transmission."],
     image: portfolio04,
     url: "/",
   },
   {
     title: "For HOME",
-    categories: ["UV Lighting", "Surface Disinfection"],
+    categories: ["We design and implement a complete disinfection solution tailored to meet your home's unique requirements budget and emphasize the health and safety ecosystem to combat surface, air, person-to-person pathogen transmission."],
     image: portfolio05,
     url: "/",
   },
   {
-    title: "For SHOP",
-    categories: ["UV Lighting", "Surface Disinfection"],
+    title: "For SHOPS",
+    categories: ["Increasing the confidence of your guests and staff that the shared spaces and rooms are clean a game-changer in increasing foot traffic and repeat visits. Enhance the customer experience of sharing those special moments by prioritizing the health and safety of your guests and staff."],
     image: portfolio06,
     url: "/",
   },
@@ -485,39 +485,39 @@ export const PortfolioDetailsData = {
   ],
 };
 
-import whyIcon01 from "@/images/icon/glove.svg";
+import whyIcon03 from "@/images/icon/blueprint.svg";
 import whyIcon02 from "@/images/icon/protection.svg";
-import whyIcon03 from "@/images/icon/spread.svg";
+import whyIcon01 from "@/images/icon/spread.svg";
 
 export const ServicePostData = [
   {
     title: "Air Quality",
     text:
-      "Please explain about why customer should choose you.",
+      "The places where we spent the majority of our time impact our quality of life. The importance of indoor air quality and healthy buildings have come into focus even more since the onset of the pandemic.",
     iconName: whyIcon01,
     url: "/",
   },
   {
     title: "Clean Environment",
     text:
-      "Please explain about why customer should choose you.",
+      "With the leaders in UV-C disinfection technology, we ensure that the right product mix is developed and implemented for each client. Safer indoor environments bring significant economic benefits and efficiencies.",
     iconName: whyIcon02,
     url: "/",
   },
   {
-    title: "biosafety Ecosystem",
+    title: "Implementation",
     text:
-      "Please explain about why customer should choose you.",
+      "We design and implement customized disinfection solutions and fixtures that incorporate FAR -UVC and UV-C dependent on the application. UV solutions that address and disinfect surface and air pathogens.",
     iconName: whyIcon03,
     url: "/",
   },
 ];
 
 export const ServiceHomeTwoData = {
-  subTitle: "welcome to kaizn",
-  title: "Why You should work with us",
+  subTitle: "welcome to KAIZN PURE AIR",
+  title: "Why should you work with us",
   text:
-    "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+    "",
 };
 
 export const ServiceHomeThreeData = {
@@ -655,7 +655,7 @@ export const ClientCarouselData = {
     title: "Meet Our Partners",
     subTitle: "UV Light Disinfection Brands",
     text:
-      "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
+      "Kaizn has developed partnerships with the leading UV-C technology equipment manufacturers. Our team strategy is to identify existing and emerging UV-C disinfection technologies through our partnerships. This strategy enables us to source and implement the most effective product mix for each client engagement.",
   },
   items: [
     {
@@ -696,6 +696,7 @@ export const AboutOneData = {
   sectionContent: {
     title: "WE OFFER THE BEST EXPERIENCE FOR OUR CLIENTS",
     subTitle: "get to know us",
+    text:"Our partnerships enable us to stay on top of the newest innovations in disinfection technology. In addition, we provide advisory services to architects, lighting professionals, and facilities staff in integrating the right mix of effective FAR -UVC (222 nm) and UV-C (254nm) disinfection technologies into a client's operations. ",
   },
   gallery: [aboutOne01, aboutOne02],
  /* counter: {
@@ -929,62 +930,41 @@ export const TestimonialsOneData = {
   ],
 };
 
-import featureTab01 from "@/images/home_1/c1.jpeg";
-import featureTab02 from "@/images/home_1/c2.jpeg";
-import featureTab03 from "@/images/home_1/c3.jpeg";
+import featureTab01 from "@/images/home_1/ultraviolet.jpg";
+import featureTab02 from "@/images/home_1/rainbow.jpg";
+import featureTab03 from "@/images/home_1/woman1.jpg";
 
 export const FeatureTabData = {
   sectionContent: {
-    title: "UV Lighting Frequently Asked Questions",
-    subTitle: "UV Light Disinfection Benefits",
+    title: "Technology: Is it needed? I doubt it ",
+    subTitle: "Frequently Asked Questions",
     text:
       "",
   },
   posts: [
     {
-      title: "What is UV Lighting?",
+      title: "Ultraviolet",
       content:
-        "Ultraviolet light (UV) is a form of electromagnetic radiation with a wavelength from 100nm to 400nm. The UV spectrum is further broken down into 3 bands known as UVC, UVB, and UVA. UVC wavelengths are from 100-280nm, UVB wavelengths are from 280-315nm, and UVA wavelengths are from 315-400nm. UV is present naturally in solar radiation. Radiation is the emission energy in the form of waves or particles through space or through a material medium, and includes, among other forms, ultraviolet, visible light, and infrared emission. Above the Earth’s atmosphere, solar radiation is 10% UV (UVC, UVB & UVA), 40% visible, and 50% infrared. After passing through the Earth’s atmosphere, radiation is 5% UV (UVB & UVA only), 43% visible, and 52% infrared. All UVC is absorbed by the Earth’s atmosphere, which is notable as it relates to UV light disinfection technology because most UV light disinfection technology is based on UVC wavelengths and must be electrically generated. See other FAQs for more information on specific UVC sources.        ",
+        "Ultraviolet light (light at wavelengths between 100 and 400 nanometers) has well-known disinfection properties. Most UV disinfection systems use germicidal lamps of wavelengths 240nm-280nm, with the most common being 254nm.",
+        
       image: featureTab01,
       lists: [
-        {
-          item: "We use Far-UVC which is 207nm-222nm",
-        },
-        {
-          item: "Most effective for disinfecting",
-        },
-        {
-          item: "Safe for skins and eyes",
-        },
       ],
     },
     {
-      title: "What are UV Lights used for?",
+      title: "UV-C",
       content:
-        "UV Lights can be used in a multitude of occupied and unoccupied spaces depending on the type of UV light disinfection* strategy you implement. UV lights can be used for inactivating viruses1 and bacteria1 in virtually any space. Acuity Brands recommends utilizing UV light disinfection in spaces such as school classrooms, office conference rooms, restaurant and hospitality, public areas, health clubs, hospital patient rooms, operating rooms, and other high-touch spaces.",
+      "UV-C is ultraviolet light with a wavelength between 100nm and 280nm. This light has unique germicidal properties. UV-C can destroy and inactivate bacteria and viruses from the seasonal flu to E. coli and SARS-CoV-2 by disrupting the molecular bonds of their DNA and RNA. Therefore, preventing the viruses from reproducing or causing illness. The germicidal properties of UV-C have been studied, understood, and proven for over 100 years, and thousands of peer-reviewed studies proving efficacy have been published to date.",
       image: featureTab02,
       lists: [
-        {
-          item: "Sterilize that air when installed in HVAC systems or in upper room air irradiation units to prevent airborne illnesses. ",
-        },
-        {
-          item: "Used for killing bacteria, creating fluorescent effects, curing inks and resins, phototherapy and suntanning.",
-        },
-
       ],
     },
     {
-      title: "Why are UV lights purple?",
+      title: "FAR-UV-C",
       content:
-        "Ultraviolet (UV) 'light' is a type of electromagnetic radiation. UV light has a shorter wavelength than visible light. Purple and violet light have shorter wavelengths than other colors of light, and ultraviolet has even shorter waves than violet does; so ultraviolet is sort of 'purpler-than-purple' light or 'beyond violet' light.",
+        "Far-UV-C (222 nm light being the most common) efficiently kills pathogens, potentially without harm to exposed human tissue. Therefore Far-UV-C 222 nm is safer and more effective than the existing conventional 250 to 280 nm UVC systems, with the additional advantages of faster on/off times, more rapid disinfection, and the elimination of mercury from the lamp.",
       image: featureTab03,
       lists: [
-        {
-          item: "Scientists subdivide the ultraviolet spectrum into regions named near UV, far UV, and extreme UV.",
-        },
-        {
-          item: "These divisions are comparable to the partitions between different colors, and hence different wavelengths, of visible light. ",
-        },
 
       ],
     },
@@ -1002,9 +982,9 @@ export const ParallaxOneData = {
 export const PortfolioHomeData = {
   sectionContent: {
     title: "Business Applications",
-    subTitle: "Discover KAIZN Solutions",
+    subTitle: "Discover KAIZN PURE AIR Solutions",
     text:
-      "Our UV light disinfection products are available in a variety of form factors \n including recessed downlight, pendant, surface mount cylinder, troffer and more.",
+      "",
   },
 };
 
@@ -1030,7 +1010,7 @@ import aboutTwo02 from "@/images/home_1/young-attractive.jpg";
 export const AboutTwoData = {
   sectionContent: {
     title: "We offer the Best Experience for our clients",
-    subTitle: "welcome to KAIZN UV Lighting",
+    subTitle: "welcome to KAIZN PURE AIR",
     text:
       "We are committed to providing our customers with exceptional service while offering our employees the best training.",
   },
@@ -1048,23 +1028,23 @@ export const FeatureTwoData = {
     title: "How we work",
     subTitle: "Kaizn Pure Air Program",
     text:
-      "Please write a short description for the program. ",
+      "",
   },
   posts: [
     {
       title: "Submit an application",
       text:
-        "Please write a short description for the program. Please write a short description for the program. ",
+        "Kaizn focuses on understanding each client's needs and requirements to develop and implement customized solutions for our clients.",
     },
     {
       title: "Visit & Design ecosystem",
       text:
-        "Please write a short description for the program. Please write a short description for the program. ",
+        "We design and implement a complete disinfection ecosystem to combat surface, air, and person-to-person pathogen transmission. Our approach combines superior UV-C disinfection technology with a customized design to meet the needs of your space.",
     },
     {
       title: "Implement to the space",
       text:
-        "Please write a short description for the program. Please write a short description for the program. ",
+        "We have a team of licensed professionals and certified technicians for each aspect of the installation process. We ensure that each installation meets the client's requirements, upholding the highest standards in quality and timeliness. ",
     },
   ],
   image: {

@@ -50,7 +50,7 @@ const FeatureTabOne = () => {
                       0 === index % 2 ? " " : "flex-lg-row-reverse"
                     }`}
                   >
-                    <Col lg={7}>
+                    <Col lg={6}>
                       <div className="wh_choose">
                         <p>{post.content}</p>
                         <ul>
@@ -62,7 +62,7 @@ const FeatureTabOne = () => {
                         </ul>
                       </div>
                     </Col>
-                    <Col lg={5}>
+                    <Col lg={6}>
                       <div className="chose_img">
                         <img src={post.image} alt={`chose_img-${index}`} />
                       </div>

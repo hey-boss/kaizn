@@ -588,12 +588,13 @@ License URI:
   opacity: 0;
   position: absolute;
   left: 20px;
+  right: 20px;
   bottom: 50px;
   z-index: 3;
-  transition: all ease 900ms;
-  -moz-transition: all ease 900ms;
-  -webkit-transition: all ease 900ms;
-  -o-transition: all ease 900ms;
+  transition: all ease 400ms;
+  -moz-transition: all ease 400ms;
+  -webkit-transition: all ease 400ms;
+  -o-transition: all ease 400ms;
 }
 .singlefolio:after {
   position: absolute;
@@ -612,21 +613,20 @@ License URI:
 }
 .singlefolio .folioHover a.cate {
   font-size: 12px;
-  line-height: 32px;
+  line-height: 24px;
   color: #000;
   display: block;
   letter-spacing: 1.2px;
-  margin: 0 0 3px;
-  text-transform: uppercase;
+  margin: 0 0 10px;
   transition: all ease 400ms;
   -webkit-transition: all ease 400ms;
   -moz-transition: all ease 400ms;
 }
 .singlefolio .folioHover h4 {
   font-size: 20px;
-  line-height: 0.8;
+  line-height: 42px;
   color: #000;
-  letter-spacing: 0.8px;
+  letter-spacing: 1.2px;
   margin: 0;
   text-transform: uppercase;
 }
@@ -649,6 +649,7 @@ License URI:
   visibility: visible;
   opacity: 1;
   left: 50px;
+  right: 50px;
 }
 .singlefolio:hover:after {
   width: 100%;
@@ -1327,7 +1328,7 @@ License URI:
 }
 .footer_1 .copyright a:hover,
 .footer_1 .contact_widgets p a:hover {
-  color: #f3edff;
+  color: #000;
 }
 .footer_1 .contact_widgets p:first-of-type {
   margin-bottom: 32px;
@@ -1377,7 +1378,7 @@ License URI:
   width: 100%;
   background: #fff;
   border: 2px solid #f4f4f4;
-  padding: 50px 65px 50px;
+  padding: 50px 50px 50px;
   transition: all ease 500ms;
   -moz-transition: all ease 500ms;
   -webkit-transition: all ease 500ms;
@@ -1676,6 +1677,7 @@ License URI:
 / 18. Why Choose Us Section
 ------------------------------------------------------*/
 .chooseUs {
+  padding-bottom: 250px;
 }
 .chooseUs_title {
   margin: 0;
@@ -1894,6 +1896,8 @@ License URI:
 .agency_img1 {
   position: relative;
   text-align: right;
+  left: 20px;
+  padding-left: 20px;
 }
 .agency_img1:after {
   position: absolute;
@@ -1909,7 +1913,7 @@ License URI:
   position: relative;
   text-align: left;
   z-index: 4;
-  margin-top: -184px;
+  margin-top: -30px;
 }
 .agency_img2 img,
 .agency_img1 img {

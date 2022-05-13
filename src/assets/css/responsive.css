@@ -478,6 +478,8 @@ License URI:
   }
   .agency_img1 {
     margin-top: 45px;
+    padding-left: 0px;
+    left: 0px;
   }
   .agency_img2 {
     margin: 30px 0 40px;

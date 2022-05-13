@@ -9,6 +9,7 @@ const AboutOne = () => {
           <div className="col-lg-6 col-sm-12 col-md-6">
             <h4 className="sub_title"> {sectionContent.subTitle} </h4>{" "}
             <h2 className="sec_title"> {sectionContent.title} </h2>{" "}
+            <p className="sec_desc">{sectionContent.text}</p>{" "}
           </div>{" "}
           <div className="col-lg-6 col-sm-12 col-md-6">
             <div className="agency_img1">

@@ -6,7 +6,7 @@ const ServiceCardOne = ({ data }) => {
   return (
     <div className="icon_box_2 text-center">
       <h3>{title}</h3>
-      <p>{text}</p>
+      <p className="text-left">{text}</p>
       <div className="iconWrap">
       <img src={iconName}/>
       </div>

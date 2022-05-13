@@ -88,11 +88,7 @@ const PopupMenu = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
-                <li>Phone: 000 000 000</li>
-                <li>Email: info@kaizn.com</li>
-                <li>
-                  Address: Street, New York United States of America
-                </li>
+                <li>Email: info@kaiznpureair.com</li>
               </ul>
             </div>
             <div className="col-lg-6 col-sm-12">

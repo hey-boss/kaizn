@@ -21,7 +21,7 @@ const Footer = () => {
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
               <p>
-                <a href="#">info@kaizn.com</a>
+                <a href="#">info@kaiznpureair.com</a>
               </p>
             </aside>
           </div>
@@ -47,7 +47,7 @@ const Footer = () => {
           <div className="col-lg-12 col-sm-12 text-center">
             <div className="copyright">
               © copyright {new Date().getFullYear()} by{" "}
-              <a href="#">Kaizn.com</a>
+              <a href="#">Kaiznpureair.com</a>
             </div>
           </div>
         </div>
