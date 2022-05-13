@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
+import emailjs from 'emailjs-com';
+
 import { ContactFormTitle } from "@/data";
 
 const ContactForm = () => {
   const { subTitle, title, description } = ContactFormTitle;
+
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm(
+      process.env.GATSBY_SERVICE_ID,
+      process.env.GATSBY_TEMPLATE_ID,
+      e.target,
+      process.env.GATSBY_PUBLIC_KEY
+    )
+      .then((result) => {
+        window.location.reload()
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+
   return (
     <section className="commonSection ContactPage">
       <div className="container">
@@ -16,18 +34,15 @@ const ContactForm = () => {
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">
             <form
-              action="#"
-              method="post"
-              className="contactFrom"
-              id="contactForm"
+              onSubmit={sendEmail}
             >
               <div className="row">
                 <div className="col-lg-6 col-sm-6">
                   <input
                     className="input-form required"
                     type="text"
-                    name="f_name"
-                    id="f_name"
+                    name="firstName"
+                    id="firstName"
                     placeholder="First Name"
                   />
                 </div>
@@ -35,8 +50,8 @@ const ContactForm = () => {
                   <input
                     className="input-form required"
                     type="text"
-                    name="l_name"
-                    id="l_name"
+                    name="lastName"
+                    id="lastName"
                     placeholder="Last Name"
                   />
                 </div>
@@ -61,8 +76,8 @@ const ContactForm = () => {
                 <div className="col-lg-12 col-sm-12">
                   <textarea
                     className="input-form required"
-                    name="con_message"
-                    id="con_message"
+                    name="message"
+                    id="message"
                     placeholder="Write Message"
                   ></textarea>
                 </div>
