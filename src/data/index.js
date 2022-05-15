@@ -1034,7 +1034,7 @@ export const FeatureTwoData = {
   },
   posts: [
     {
-      title: "Submit an application",
+      title: "Application",
       text:
         "Kaizn focuses on understanding each client's needs and requirements to develop and implement customized solutions for our clients.",
     },
