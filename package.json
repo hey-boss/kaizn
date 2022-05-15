@@ -24,6 +24,7 @@
     "react-dom": "17.0.1",
     "react-helmet": "^6.1.0",
     "react-scroll": "^1.8.1",
+    "react-toastify": "^9.0.1",
     "react-visibility-sensor": "^5.1.1",
     "rimraf": "^3.0.2",
     "swiper": "^6.4.6",
@@ -47,7 +48,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "d0": "rimraf public",
     "d1": "gatsby build",
-    "d2": "echo 'http://kaiznpureair.com/' > ./public/CNAME && gh-pages -d public" 
+    "d2": "echo 'http://kaiznpureair.com/' > ./public/CNAME && gh-pages -d public"
   },
   "repository": {
     "type": "git",

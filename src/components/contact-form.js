@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import  { navigate } from 'gatsby';
 
 import { ContactFormTitle } from "@/data";
 
@@ -15,9 +18,13 @@ const ContactForm = () => {
       process.env.GATSBY_PUBLIC_KEY
     )
       .then((result) => {
-        window.location.reload()
+        toast.success('Successfully Emailed',{
+          position: "bottom-left",
+        });
+        e.target.reset();
       }, (error) => {
         console.log(error.text);
+        toast.error(' Failed to email');
       });
   }
 
@@ -31,6 +38,7 @@ const ContactForm = () => {
             <p className="sec_desc">{description}</p>
           </div>
         </div>
+        <ToastContainer />
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">
             <form
