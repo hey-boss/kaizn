@@ -48,7 +48,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "d0": "rimraf public",
     "d1": "gatsby build",
-    "d2": "echo 'http://kaiznpureair.com/' > ./public/CNAME && gh-pages -d public"
+    "d2": "echo 'kaiznpureair.com/' > ./public/CNAME && gh-pages -d public"
   },
   "repository": {
     "type": "git",

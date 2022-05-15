@@ -18,13 +18,15 @@ const ContactForm = () => {
       process.env.GATSBY_PUBLIC_KEY
     )
       .then((result) => {
-        toast.success('Successfully Emailed',{
+        toast.success('Successfully Emailed', {
           position: "bottom-left",
         });
         e.target.reset();
       }, (error) => {
         console.log(error.text);
-        toast.error(' Failed to email');
+        toast.error(' Failed to email', {
+          position: "bottom-left",
+        });
       });
   }
 
