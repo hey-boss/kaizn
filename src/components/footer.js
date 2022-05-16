@@ -21,7 +21,7 @@ const Footer = () => {
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
               <p>
-                <a href="#">info@kaiznpureair.com</a>
+                <a href="/contact">info@kaiznpureair.com</a>
               </p>
             </aside>
           </div>
