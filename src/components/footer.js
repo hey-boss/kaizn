@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="copyright">
               © copyright {new Date().getFullYear()} by{" "}
               <a href="#">Kaiznpureair.com</a> {" "}
-              / Designed by <a href="heyboss.us">HEYBOSS</a>
+              / Designed by <a href="https://www.heyboss.us/">HEYBOSS</a>
             </div>
           </div>
         </div>
