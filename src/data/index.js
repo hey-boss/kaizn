@@ -407,7 +407,7 @@ import portfolio06 from "@/images/portfolio/shop.png";
 export const PortfolioData = [
   {
     title: "For SCHOOL",
-    categories: ["Our solutions give parents peace of mind that their children and staff are in a safe and healthy space, in turn promoting a healthy, productive learning environment."],
+    categories: ["Our solutions give parents peace of mind that their children are in a safe and healthy learning environment"],
     image: portfolio01,
     url: "/",
   },
@@ -425,19 +425,19 @@ export const PortfolioData = [
   },
   {
     title: "For FACTORY",
-    categories: ["The work environment can be stressful enough, and the last thing a worker needs is to worry about is poor air quality. Our suite of solutions work on limiting the spread of surface and air and person-to-person pathogen transmission."],
+    categories: ["The work environment can be stressful enough. The last thing a worker needs is to worry about is poor air quality. Our solutions work on limiting the spread of surface, air, and person-to-person pathogen transmission."],
     image: portfolio04,
     url: "/",
   },
   {
     title: "For HOME",
-    categories: ["We design and implement a complete disinfection solution tailored to meet your home's unique requirements budget and emphasize the health and safety ecosystem to combat surface, air, person-to-person pathogen transmission."],
+    categories: ["Kaizn will design and implement a disinfection solution tailored to your home to ensure that you and your guests remain healthy and safe free from surface, and airborne pathogens."],
     image: portfolio05,
     url: "/",
   },
   {
     title: "For SHOPS",
-    categories: ["Increasing the confidence of your guests and staff that the shared spaces and rooms are clean a game-changer in increasing foot traffic and repeat visits. Enhance the customer experience of sharing those special moments by prioritizing the health and safety of your guests and staff."],
+    categories: ["Your guests and staff can feel confident that your shared and private areas are clean and safe. Everyone will feel at ease sharing those special moments knowing that their health and safety is your priority."],
     image: portfolio06,
     url: "/",
   },
@@ -940,7 +940,7 @@ import featureTab03 from "@/images/home_1/woman1.jpg";
 
 export const FeatureTabData = {
   sectionContent: {
-    title: "Technology: Is it needed? I doubt it ",
+    title: "Types of UV Technology:",
     subTitle: "Frequently Asked Questions",
     text:
       "",

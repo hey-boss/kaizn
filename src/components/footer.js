@@ -13,7 +13,7 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a>
               <p>
-              Kaizn delivers Intelligent sustainable disinfection technology creating ecosystems improving productivity and health.
+              UTILIZING STATE OF THE ART INTELLIGENT DISINFECTION TECHNOLOGIES, KAIZN CREATES HEALTHY, PRODUCTIVE INTERIOR ENVIRONMENTS.
               </p>
             </aside>
           </div>
@@ -47,7 +47,8 @@ const Footer = () => {
           <div className="col-lg-12 col-sm-12 text-center">
             <div className="copyright">
               © copyright {new Date().getFullYear()} by{" "}
-              <a href="#">Kaiznpureair.com</a>
+              <a href="#">Kaiznpureair.com</a> {" "}
+              / Designed by <a href="heyboss.us">HEYBOSS</a>
             </div>
           </div>
         </div>
