@@ -30,13 +30,8 @@ const Footer = () => {
               <h3 className="widget_title">social</h3>
               <ul>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-linkedin"></i>Linked In
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-facebook-square"></i>Facebook
+                  <a href="https://www.instagram.com/kaiznpureair/">
+                    <i className="fa fa-instagram"></i>Instagram
                   </a>
                 </li>
               </ul>
