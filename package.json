@@ -46,7 +46,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "d0": "rimraf public",
+    "d0": "npm run clean & rimraf public .cache",
     "d1": "gatsby build",
     "d2": "echo 'kaiznpureair.com/' > ./public/CNAME && gh-pages -d public"
   },
