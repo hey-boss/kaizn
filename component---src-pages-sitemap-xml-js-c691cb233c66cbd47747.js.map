@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-sitemap-xml-js-c691cb233c66cbd47747.js","mappings":"0LAEe,SAASA,IACtB,MAAO","sources":["webpack://gatsby-starter-default/./src/pages/sitemap.xml.js"],"sourcesContent":["import * as React from \"react\"\n\nexport default function Component () {\n  return \"Hello world\"\n}"],"names":["Component"],"sourceRoot":""}
